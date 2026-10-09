@@ -13,3 +13,5 @@ python app.py --host localhost --port 5000
 Tests: `pytest`
 
 CI: `.github/workflows/ci.yml`
+
+CI runs on pull_request (opened / synchronize) and on workflow_dispatch.
